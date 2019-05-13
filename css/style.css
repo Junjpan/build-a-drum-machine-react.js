@@ -1,0 +1,98 @@
+body {
+  background-color: gray;
+}
+
+#title {
+  font-family: "Orbitron", sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+#drum-machine {
+  top: 20%;
+  position: absolute;
+  font-family: "Dancing Script", cursive;
+  border: white solid 2px;
+  width: 800px;
+  height: 400px;
+  background-color: black;
+  margin-left: 20%;
+  border-radius: 10%;
+  color: #d38f19;
+}
+
+.grid-container {
+  border: solid gray 1px;
+  border-radius: 10%;
+  position: relative;
+  grid-column-gap: 50px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 60%;
+  height: 80%;
+  float: left;
+}
+
+.drum-pad {
+  padding: 20px;
+  width: 60%;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  font-size: 20px;
+  font-wegith: bold;
+  margin-top: 5px;
+  margin-left: 15px;
+  border-radius: 30%;
+  background-color: #d38f19;
+}
+.drum-pad:active, .drum-pad:hover {
+  color: #70ad1b;
+  background-color: white;
+  cursor: pointer;
+}
+
+#display {
+  background-color: gray;
+  height: 50px;
+  border-radius: 10px;
+  color: #70ad1b;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+  margin-top: 30px;
+  width: 30%;
+  float: right;
+  margin-right: 35px;
+}
+
+#power {
+  margin-top: 30px;
+  width: 30%;
+  float: right;
+  margin-right: 35px;
+  text-align: center;
+}
+#power:hover {
+  cursor: pointer;
+}
+
+#vol-control {
+  margin-top: 30px;
+  width: 30%;
+  float: right;
+  margin-right: 35px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  background-color: #d38f19;
+}
+
+input[type=range]::-moz-range-thumb {
+  background-color: #d38f19;
+}
+
+input[type=range]::-ms-thumb {
+  background-color: #d38f19;
+}
